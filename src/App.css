@@ -1,0 +1,55 @@
+body {
+    background-color: #62c2c8;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.app {
+    background-color: white;
+    min-height: 80vh;
+    width: 400px;
+    margin: 20px auto;
+}
+
+ul, li {
+    list-style-type: none;
+    padding: 10px;
+    margin: 0;
+}
+
+.btn {
+    padding: 10px;
+    border: none;
+    width: 70%;
+    color: white;
+    font-size: 16px;
+}
+
+.btn-add {
+    background: #65aa06;
+    margin-top: 5px;
+}
+
+.btn-delete {
+    background: #d30100;
+    margin-bottom: 5px;
+}
+
+input {
+    flex: 1;
+    padding: 8px;
+    margin: 10px;
+}
+
+img {
+    border-radius: 50%;
+}
+
+.crossedWord {
+    text-decoration: line-through 2px red;
+    background-color: #f0f0f0;
+}
+
